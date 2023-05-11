@@ -11,3 +11,5 @@ gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"MP"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosProcessorModel|"Snapdragon (TM) 860 @ 2.96 GHz"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosProcessorRetailModel|"SM8150-AC"
 gSurfaceDuoFamilyPkgTokenSpaceGuid.PcdSmbiosBoardModel|"K82"
+
+gSimpleInitTokenSpaceGuid.PcdGuiDefaultDPI|320
