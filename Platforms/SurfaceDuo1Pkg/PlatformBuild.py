@@ -48,6 +48,7 @@ class CommonPlatform():
         "Silicon/Arm/MU_TIANO",
         "Features/DFCI",
         "Features/CONFIG",
+        "GPLDriver",
         "Binaries",
         "Silicon/QC/Sm8150"
     )

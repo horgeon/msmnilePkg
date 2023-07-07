@@ -364,6 +364,8 @@
   # ARM Architectural Libraries
   ArmGicArchLib|ArmPkg/Library/ArmGicArchLib/ArmGicArchLib.inf
 
+  BootSlotLib|GPLDriver/Library/BootSlotLib/BootSlotLib.inf
+
 [LibraryClasses.common.SEC]
   ArmGicArchLib|ArmPkg/Library/ArmGicArchSecLib/ArmGicArchSecLib.inf
   HobLib|EmbeddedPkg/Library/PrePiHobLib/PrePiHobLib.inf
@@ -603,6 +605,9 @@
 
   AdvLoggerPkg/AdvancedFileLogger/AdvancedFileLogger.inf
   MdeModulePkg/Universal/MemoryTest/NullMemoryTestDxe/NullMemoryTestDxe.inf
+
+  GPLDriver/Driver/BootSlotDxe/BootSlotDxe.inf
+  GPLDriver/Application/SwitchSlotsApp/SwitchSlotsApp.inf
 
   # NetworkPkg/ArpDxe/ArpDxe.inf
   # NetworkPkg/Dhcp4Dxe/Dhcp4Dxe.inf
