@@ -49,6 +49,7 @@ class CommonPlatform():
         "Features/DFCI",
         "Features/CONFIG",
         "GPLDriver",
+        "GPLDriver/Library/SimpleInit",
         "Binaries",
         "Silicon/QC/Sm8150"
     )
