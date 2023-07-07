@@ -33,3 +33,6 @@
 [submodule "Platforms/X86EmulatorPkg"]
 	path = Platforms/X86EmulatorPkg
 	url = https://github.com/ardbiesheuvel/X86EmulatorPkg.git
+[submodule "GPLDriver/Library/SimpleInit"]
+	path = GPLDriver/Library/SimpleInit
+	url = git@github.com:horgeon/simple-init.git
