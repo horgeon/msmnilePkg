@@ -119,7 +119,12 @@
 
   gEfiMdeModulePkgTokenSpaceGuid.PcdMaxVariableSize|0x2000
 
+  gSimpleInitTokenSpaceGuid.PcdLoggerdMinLevel|0xAE10
+  gSimpleInitTokenSpaceGuid.PcdLoggerdUseConsole|FALSE
+
 !include MdePkg/MdeLibs.dsc.inc
+
+!include Library/SimpleInit/SimpleInit.inc
 
 [LibraryClasses.common]
   DebugLib|MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort.inf
@@ -608,6 +613,8 @@
 
   GPLDriver/Driver/BootSlotDxe/BootSlotDxe.inf
   GPLDriver/Application/SwitchSlotsApp/SwitchSlotsApp.inf
+
+  src/main/SimpleInitMain.inf
 
   # NetworkPkg/ArpDxe/ArpDxe.inf
   # NetworkPkg/Dhcp4Dxe/Dhcp4Dxe.inf
